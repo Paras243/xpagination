@@ -68,15 +68,16 @@ const PaginationApp = () => {
 
       <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
         <button className="button" onClick={prevPage} disabled={currentPage === 1}>
-          Previous
+            Previous
         </button>
-        <span className="button" style={{ margin: "0 10px", width: "20px", height: "40px" }}>
-          {currentPage}
+        <span style={{ margin: "0 10px", width: "20px", height: "40px" }} id="page-number">
+            {currentPage}
         </span>
         <button className="button" onClick={nextPage} disabled={currentPage === Math.ceil(employees.length / rowsPerPage)}>
-          Next
+            Next
         </button>
       </div>
+
     </div>
   );
 };
