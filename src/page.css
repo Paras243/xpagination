@@ -1,0 +1,27 @@
+.container-div{
+    background-color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    margin:20px;
+}
+.button{
+    color: aliceblue;
+    background-color: green;
+    border-radius: 5px;
+    width:100px;
+    height:30px;
+}
+
+.rows {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are not duplicated */
+  }
+  
+  
+  
+  /*git remote add origin https://github.com/Paras243/xpagination.git
+git branch -M main
+git push -u origin main*/
+
+  
